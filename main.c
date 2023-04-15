@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
 
 	char* str = argv[1];
 
-	printf("%c%c%s\n", prefix, ws, str);
+	printf("%c%c%s", prefix, ws, str);
 
 	return 0;
 }
