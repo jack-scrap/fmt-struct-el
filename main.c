@@ -21,9 +21,7 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-	char* str = argv[1];
-
-	printf("%c%c%s", prefix, ws, str);
+	printf("%c%c%s", prefix, ws, argv[1]);
 
 	return 0;
 }
